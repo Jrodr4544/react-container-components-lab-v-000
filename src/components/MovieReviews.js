@@ -7,7 +7,11 @@ const Review = ({ title, summary }) => (
   </div>
 )
 
+<<<<<<< HEAD
 const ReviewList = ( {reviews} ) => (
+=======
+const MovieReviews = ( {reviews} ) => (
+>>>>>>> fb4ea1097c8dc045e48fc497be42977e36d30e4f
 
   <div className="review-list">
     { reviews.map(review => <Review title={review.display_title} summary={review.sumary_short} />) }

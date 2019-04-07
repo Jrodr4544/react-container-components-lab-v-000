@@ -54,7 +54,11 @@ setSearch = (term) =>{
             <button type="submit">Submit</button>
           </div>
         </form>
+<<<<<<< HEAD
       <ReviewList reviews={this.state.reviews} />
+=======
+      <MovieReviews reviews={this.state.reviews} />
+>>>>>>> fb4ea1097c8dc045e48fc497be42977e36d30e4f
     </div>
   )}
 }
